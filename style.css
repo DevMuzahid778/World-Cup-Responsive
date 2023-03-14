@@ -30,9 +30,71 @@ button{
     background-color: rgb(255, 34, 34);
     border-radius: 4px;
     padding: 8px;
+    width: 140px;
 }
 a{
     text-decoration: none;
     color: white;
 }
 /* header Part ended */
+
+/* about match started */
+.matchsection{
+    margin: 4%;
+    display: flex;
+}
+.match-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    border-radius: 8px;
+    padding: 40px;
+    width: 200px;
+    height: 120px;
+    margin-right: 10px;
+}
+.match{
+    background-color: #ffffff;
+    width: 140px;
+    border: 1px solid black;
+}
+
+.match-devision{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.details-match{
+    background-color: rgb(244, 244, 244);
+    border-radius: 10px;
+    padding: 10px;
+}
+.details-match .cover{
+    width: 100%;
+}
+.time-comment{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.time{
+    display: flex;
+    gap: 10px;
+}
+/* about match ended */
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
